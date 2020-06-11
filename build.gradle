@@ -21,7 +21,4 @@ dependencies {
 
 test {
 	useJUnitPlatform {         includeTags 'fast'         excludeTags 'slow'     }
-	testLogging {
-		events "passed", "skipped", "failed"
-	}
 }
